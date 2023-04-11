@@ -72,12 +72,34 @@ body {
 .body-one {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    padding: 20px;
+    height: 400px;
 }
 
+.carousel-container {
+    display: flex;
+}
 
+.carousel-items {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    max-width: 300px;
+    min-width: 250px;
+    align-items: center;
+}
+
+.carousel-img {
+    width: auto;
+    height: 100px;
+}
+
+.carousel-text {
+    text-align: center;
+    border-top: 2px dotted black;
+    padding: 10px;
+}
 
 /* GLOBAL CONFIG */
 
