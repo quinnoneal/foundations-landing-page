@@ -7,11 +7,12 @@ body {
     /* height: 100vh; */
 }
 
+/* HEADER STYLING */
+
 .header {
     display: flex;
     justify-content: space-around;
     background-color: orange;
-    padding: 10px;
 }
 
 .left-header,
@@ -22,9 +23,19 @@ body {
 }
 
 .logo {
+    display: flex;
     font-size: 32px;
     color: white;
+    gap: 10px;
 }
+
+.logo-img {
+    align-self: center;
+    width: auto;
+    height: 45px;
+}
+
+/* HERO STYLING */
 
 .hero {
     display: flex;
@@ -55,6 +66,20 @@ body {
     width: auto;
     height: 250px;
 }
+
+/* CAROUSEL STYLING */
+
+.body-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+
+/* GLOBAL CONFIG */
 
 .button {
     color: white;
