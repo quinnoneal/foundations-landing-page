@@ -10,30 +10,33 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: orange;
-    height: 80px;
+    padding: 10px;
 }
 
 .left-header {
     display: flex;
     align-items: center;
-    border: 1px solid black;
-
 }
 
 .logo {
     font-size: 30px;
+    color: white;
+    font-
 }
 
 .right-header {
     display: flex;
-    width: 500px;
-    justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
 }
 
 .right-links {
     display: flex;
+}
+
+.link {
+    display: flex;
+    margin: 10px;
+
 }
 
 a {
