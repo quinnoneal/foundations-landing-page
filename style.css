@@ -11,7 +11,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: orange;
 }
 
@@ -20,6 +20,8 @@ body {
 .right-links {
     display: flex;
     align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .logo {
@@ -55,6 +57,7 @@ body {
 
 .hero-main-text {
     margin-bottom: 0;
+    font-weight: bolder;
     color: white;
 }
 
@@ -99,6 +102,31 @@ body {
     text-align: center;
     border-top: 2px dotted black;
     padding: 10px;
+}
+
+/* QUOTE STYLING */
+
+.body-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    background-color: #E5E7EB;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.body-two-quote {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    font-size: larger;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.body-two-quotee {
+    font-weight: bolder;
+    margin-left: 300px;
 }
 
 /* GLOBAL CONFIG */
