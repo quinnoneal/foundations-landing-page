@@ -129,6 +129,36 @@ body {
     margin-left: 300px;
 }
 
+/* CALL TO ACTION STYLING */
+
+.call-to-action {
+    display: flex;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #3882F6;
+    color: white;
+    width: 1000px;
+    height: 150px;
+}
+
+.cta-header,
+.cta-description {
+    margin: 5px;
+}
+
+.cta-header {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cta-button {
+    border: 2px solid white;
+}
+
 /* GLOBAL CONFIG */
 
 .button {
