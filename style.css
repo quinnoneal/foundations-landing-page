@@ -122,9 +122,11 @@ body {
     font-size: larger;
     font-weight: lighter;
     font-style: italic;
+    margin-bottom: 0;
 }
 
 .body-two-quotee {
+    margin-top: 0;
     font-weight: bolder;
     margin-left: 300px;
 }
@@ -157,6 +159,16 @@ body {
 
 .cta-button {
     border: 2px solid white;
+}
+
+/* FOOTER STYLING */
+
+.footer {
+    display: flex;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    background-color: #1F2937;
 }
 
 /* GLOBAL CONFIG */
